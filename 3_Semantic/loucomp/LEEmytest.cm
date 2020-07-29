@@ -1,0 +1,30 @@
+
+int x;
+int x;
+
+int main(void)
+{
+	int y;
+	int y;
+	k =3;
+	return;
+
+	if(x<4)
+	{
+		main(x);
+	}
+	x=output();
+	input(x);
+
+
+}
+
+void gcd(int x)
+{
+	return;
+
+	return 3;
+
+
+
+}

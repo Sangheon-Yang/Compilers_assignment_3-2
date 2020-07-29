@@ -1,0 +1,16 @@
+int x;
+int y[100];
+
+int function(void){
+    int a;
+    return a;
+}
+
+int main(void)
+{
+    /*int function;*/
+    int x;
+
+    /*x = x + function()*/;
+    return x + x[y[10]];
+}

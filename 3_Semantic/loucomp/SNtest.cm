@@ -1,0 +1,25 @@
+int z[10];
+int xy;
+int xy(int a, int b, int c[]){
+	return c[1]+a+b;
+}
+
+/*int xy(int a, int y){
+	return x+1+y;
+}*/
+
+int max(void){
+	int x;
+	int a;
+	return a+x;
+}
+
+
+
+int main(void){
+	int i;
+	int x;
+	x = max();
+	/*return xy;*/
+	return xy(xy, xy, z);
+}

@@ -1,0 +1,3 @@
+void main(void){
+	if(i==0) if(j==0) d=1; else d=2;
+}

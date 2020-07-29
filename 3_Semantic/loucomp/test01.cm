@@ -1,0 +1,52 @@
+/*888*8******8A program to /* perform Euclid's
+  Algorithm to compute567898765 gcd should be shown*/
+
+int gcd(int u, int v)
+{
+	if(v==0) return u;
+	else return gcd(v,u-u/v*v);
+	/* u-u/v*v == u mod v */
+}
+
+void main(void)
+{
+	int itmp[5];
+
+	i = 10;
+	j = 20;
+	k = 30;
+
+	if(i != j){
+		tmp[0] = 0;
+	}
+	else if(i <= j){
+		tmp[1] = 1;
+	}
+	else if(i >= j){
+		tmp[2] =2;
+	}
+	else if(j == k){
+		tmp[3] =3;
+	}
+	else{
+		tmp[4] = 4;
+	}
+
+	minus = i - 9;
+
+	pls = i + j;
+
+	times = i * j;
+
+	over = i / j;
+
+	while(minus > 0){
+		minus = minus - 1;
+	} 
+	/*int x; int y;*/
+	x = input(); y = input();
+	output(gcd(x,y));
+
+	
+	return 0;
+}

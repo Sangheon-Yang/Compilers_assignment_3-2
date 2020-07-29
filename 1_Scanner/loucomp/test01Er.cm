@@ -1,0 +1,54 @@
+/*A program to perform Euclid's
+  Algorithm to compute gcd*/
+
+int gcd(int u, int v)
+{
+	if(v==0) return u;
+	else return gcd(v,u-u/v*v);
+	/* u-u/v*v == u mod v */
+}
+
+void main(void)
+{
+	int i, j, k, pls, mi%nus, times, ove ,tmp[5];
+
+	i = 10;
+	j = 20;
+	k = 30;
+
+	if(i =! j){
+		tmp[0] = 0;
+	}
+	else if(i <= j){
+		tmp[1] = 1;
+	}
+	else if(i >= j){
+		tmp[2] =2;
+	}
+	else if(j =!= k){
+		tmp[3] =3;
+	}
+	else{
+		tmp[4] /= 4;
+	}
+
+	mi%nus = i - 9;
+
+	pls = i +- j;
+
+	times = i ** j;
+
+	over = i // j;
+
+	while(minus >0){
+		minus = minus - 1;
+	}
+
+
+	int x; int y;
+	x = input(); y = input();
+	output(gcd(x,y));
+
+	
+	return 0;
+}

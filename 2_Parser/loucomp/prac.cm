@@ -1,0 +1,4 @@
+int gcd(int u, int v){
+	return u;
+	/*else return gcd(v,u-u/v*v);*/
+}
